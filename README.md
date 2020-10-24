@@ -15,3 +15,28 @@ Push the newly-named main branch to GitHub (assuming that is your remote reposit
 `git push -u origin main`
 
 See [article](https://www.techrepublic.com/article/github-to-replace-master-with-main-starting-in-october-what-developers-need-to-know/)
+## Utils
+
+[lf](https://pkg.go.dev/github.com/gokcehan/lf)
+
+[rg](https://github.com/BurntSushi/ripgrep)
+
+[fd](https://github.com/sharkdp/fd)
+
+[pistol](https://github.com/doronbehar/pistol) for `lf` preview
+
+[bat](https://github.com/sharkdp/bat)
+
+[htop](https://htop.dev/)
+
+[tldr](https://tldr.sh/)
+
+[pgcli](https://www.pgcli.com/)
+
+[ncdu](https://dev.yorhel.nl/ncdu)
+
+## HowTos
+
+[Elixir asdf install](https://thinkingelixir.com/install-elixir-using-asdf/)
+
+[golang on ubuntu](https://levelup.gitconnected.com/installing-go-on-ubuntu-b443a8f0eb55)
