@@ -1,0 +1,7 @@
+[user]
+	name = Leo Nistor
+	email = leo.nistor@gmail.com
+[color]
+	ui = auto
+[credential]
+	helper = osxkeychain

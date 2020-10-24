@@ -1,0 +1,21 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "html",
+    "javascript",
+    "Markdown",
+    "dart",
+    "rust",
+    "json",
+    "sql",
+    "elixir"
+  ],
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "prettier.semi": false,
+  "javascript.showUnused": false,
+  "rust.show_hover_context": true,
+  "rust-client.updateOnStartup": true,
+  "erlang_ls.erlang_ls_path": "erlang_ls",
+  "erlang_ls.trace.server": "off",
+  "sql.database": "postgresql"
+}
