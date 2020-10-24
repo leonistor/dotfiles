@@ -40,3 +40,19 @@ See [article](https://www.techrepublic.com/article/github-to-replace-master-with
 [Elixir asdf install](https://thinkingelixir.com/install-elixir-using-asdf/)
 
 [golang on ubuntu](https://levelup.gitconnected.com/installing-go-on-ubuntu-b443a8f0eb55)
+
+## coc.nvim extensions
+
+- coc-css
+- coc-elixir
+- coc-emmet
+- coc-html
+- coc-json
+- coc-lists
+- coc-marketplace
+- coc-prettier
+- coc-snippets
+- coc-sql
+- coc-tsserver
+
+Install vscode extensions with `:CocInstall https://github.com/florinpatrascu/vscode-elixir-snippets`
