@@ -6,9 +6,9 @@ bold_italic_font auto
 
 # host=specific font size
 {% if yadm.os == "Darwin" %}
-font_size = 18
+font_size = 18.0
 {% else %}
-font_size = 15
+font_size = 15.0
 {% endif %}
 
 copy_on_select yes
