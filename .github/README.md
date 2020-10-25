@@ -2,6 +2,16 @@
 
 Using [yadm](https://yadm.io/)
 
+## yadm tips
+
+Unstaged changes and diffs before commit: `[yadm|git] status -vv`
+
+Push: `yadm push -u origin main`
+
+Pull: `yadm pull --rebase origin main`
+
+See [common commands](https://yadm.io/docs/common_commands#)
+
 ## github default branch
 
 `main` is now the default branch on github.
