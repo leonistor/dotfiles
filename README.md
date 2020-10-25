@@ -38,6 +38,8 @@ Set default branch `main` for `git init`: `git config --global init.defaultBranc
 
 [golang on ubuntu](https://levelup.gitconnected.com/installing-go-on-ubuntu-b443a8f0eb55)
 
+[golang on macos](https://ahmadawais.com/install-go-lang-on-macos-with-homebrew/)
+
 ## coc.nvim extensions
 
 - coc-css
