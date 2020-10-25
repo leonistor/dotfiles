@@ -1,4 +1,5 @@
 # aliases
+# TODO: extract to functions
 
 function d
 	# ls -lah
@@ -19,25 +20,17 @@ set -g theme_date_format "+%a %H:%M"
 set -g theme_title_display_path yes
 set -g theme_title_use_abbreviated_path yes
 
-# set path: user only, once, in shell, not in config file!
-# set -U fish_user_paths ~/bin $fish_user_paths
 # cookbook
 # https://github.com/jorgebucaran/fish-cookbook
 
-# .config/bat/config
-# --theme="OneHalfLight"
-# --style="numbers,changes"
-
-# set arrow keys in osx terminal
-# https://coderwall.com/p/ygcaqg/get-alt-arrow-keys-working-in-fish-on-osx
-
-# nvm
-# https://github.com/jorgebucaran/fisher
-# https://github.com/jorgebucaran/fish-nvm
-
-# crystal
+# crystal on os x
 set -gx PKG_CONFIG_PATH "/usr/local/opt/openssl/lib/pkgconfig"
 
 # locale
 # set -gx LANG "en_US.UTF-8"
 # set -gx LC_ALL "en_US.UTF-8"
+
+# asdf
+if test -f ~/.asdf/asdf.fish
+  source ~/.asdf/asdf.fish
+end
