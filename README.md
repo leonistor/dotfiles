@@ -55,3 +55,11 @@ Set default branch `main` for `git init`: `git config --global init.defaultBranc
 - coc-tsserver
 
 Install vscode extensions with `:CocInstall https://github.com/florinpatrascu/vscode-elixir-snippets`
+
+## Other dotfiles
+
+Similar to my setup: fish, neovim, lf.
+
+- https://github.com/LukeSmithxyz/voidrice
+- https://github.com/oibind/dotfiles
+- https://github.com/herrbischoff/dotpr0n
