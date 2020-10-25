@@ -1,0 +1,16 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "html",
+    "javascript",
+    "Markdown",
+    "json",
+    "sql",
+    "elixir"
+  ],
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "prettier.semi": false,
+  "erlang_ls.erlang_ls_path": "erlang_ls",
+  "erlang_ls.trace.server": "off",
+  "sql.database": "postgresql"
+}
