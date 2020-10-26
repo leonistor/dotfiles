@@ -65,9 +65,9 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'scrooloose/nerdcommenter'
 
 "fzf
-Plug '/usr/local/opt/fzf'
+"Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
-"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 "list buffers, use fzf for now
 "Plug 'jeetsukumaran/vim-buffergator'
