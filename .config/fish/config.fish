@@ -35,3 +35,8 @@ set -gx PKG_CONFIG_PATH "/usr/local/opt/openssl/lib/pkgconfig"
 if test -f ~/.asdf/asdf.fish
   source ~/.asdf/asdf.fish
 end
+
+# linux brew
+if test -d /home/linuxbrew
+  eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+end
