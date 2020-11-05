@@ -15,4 +15,7 @@ copy_on_select yes
 
 tab_bar_style powerline
 
+# os x emacs meta
+macos_option_as_alt yes
+
 include ./ayu_mirage.conf
