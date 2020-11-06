@@ -73,3 +73,7 @@ Similar to my setup: fish, neovim, lf.
 - https://github.com/LukeSmithxyz/voidrice
 - https://github.com/oibind/dotfiles
 - https://github.com/herrbischoff/dotpr0n
+
+## Notes
+
+- [emacs](/.github/EMACS.md)
