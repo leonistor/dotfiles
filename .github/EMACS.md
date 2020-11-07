@@ -4,6 +4,21 @@
 
 [Using emacsclient on MacOS](https://blog.lambda.cx/posts/using-emacsclient-on-macos/)
 
+### OS X
+
+Fix `kitty` terminal:
+
+`ln -s /Applications/kitty.app/Contents/Resources/kitty/terminfo ~/.terminfo`
+
+Install `emacs-plus`:
+
+`https://github.com/d12frosted/homebrew-emacs-plus`
+
+Start in terminal:
+
+`emacsclient -t -a ''`
+
+
 ## Tutorials
 
 [Emacs beginner resources](https://sachachua.com/blog/2014/04/emacs-beginner-resources/)
