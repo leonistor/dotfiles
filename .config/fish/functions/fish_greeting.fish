@@ -10,14 +10,14 @@ function fish_greeting --description "Welcome message with infos"
     set platform (uname)
 
     # IP
-    echo -n ' IP: '
-    set_color $fish_color_cwd
-    switch $platform
-      case Darwin
-        echo -n (ipconfig getifaddr en0)
-      case Linux
-        echo -n (hostname -I)
-    end
+    #echo -n ' IP: '
+    #set_color $fish_color_cwd
+    #switch $platform
+      #case Darwin
+        #echo -n (ipconfig getifaddr en0)
+      #case Linux
+        #echo -n (hostname -I)
+    #end
     set_color normal
 
     # mouse and keyboard battery alarm
