@@ -91,6 +91,10 @@ imap <C-j> <Plug>(coc-snippets-expand-jump)
 " coc-prettier
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
+" coc-flutter
+"xmap <leader>a  <Plug>(coc-codeaction-selected)
+"nmap <leader>a  <Plug>(coc-codeaction-selected)
+
 " elixir html templates
 au BufRead,BufNewFile *.html.eex set filetype=html
 

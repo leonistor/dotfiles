@@ -6,7 +6,8 @@
     "Markdown",
     "json",
     "sql",
-    "elixir"
+    "elixir",
+    "dart"
   ],
   "coc.preferences.extensionUpdateCheck": "daily",
   "prettier.semi": false,
