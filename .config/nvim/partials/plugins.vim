@@ -4,7 +4,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'joshdick/onedark.vim'
 
 "golang
-"Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 "language packs
 Plug 'sheerun/vim-polyglot'

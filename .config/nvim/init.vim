@@ -12,6 +12,7 @@ runtime! partials/plugin_whitespace.vim
 runtime! partials/plugin_airline.vim
 runtime! partials/plugin_startify.vim
 runtime! partials/plugin_coc.vim
+runtime! partials/plugin_go.vim
 
 " onedark colors, must be at end
 runtime! partials/colors.vim
