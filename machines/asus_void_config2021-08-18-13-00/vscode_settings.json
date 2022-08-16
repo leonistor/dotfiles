@@ -1,0 +1,58 @@
+{
+  "workbench.colorTheme": "Serendipity Dark Italics",
+  "workbench.startupEditor": "none",
+  "editor.fontSize": 16,
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "window.zoomLevel": 1,
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "diffEditor.codeLens": true,
+  "editor.minimap.enabled": false,
+  "editor.fontLigatures": true,
+  "window.menuBarVisibility": "toggle",
+  "breadcrumbs.enabled": false,
+  "security.workspace.trust.enabled": false,
+  "nim.nimprettyIndent": 2,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "standard.autoFixOnSave": true,
+  "standard.options": {},
+  "standard.run": "onSave",
+  "standard.treatErrorsAsWarnings": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "html-css-class-completion.enableEmmetSupport": true,
+  "editor.wordBasedSuggestionsMode": "allDocuments",
+  "files.insertFinalNewline": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.format.config.singleQuote": true,
+  "redhat.telemetry.enabled": false,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "p"
+      ],
+      "commands": [
+        "workbench.action.showCommands"
+      ]
+    }
+  ],
+  "zenMode.fullScreen": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.centerLayout": false,
+  "eslint.alwaysShowStatus": true
+}

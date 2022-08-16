@@ -1,0 +1,5 @@
+set previewer pistol
+set hidden on
+map i $~/.config/lf/pv.sh $f
+cmd open $~/.config/lf/pv.sh $f
+map <enter> open

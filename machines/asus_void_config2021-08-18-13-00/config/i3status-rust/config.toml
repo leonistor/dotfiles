@@ -1,0 +1,37 @@
+theme = "plain"
+icons = "awesome"
+
+
+[[block]]
+block = "cpu"
+interval = 60
+
+[[block]]
+block = "disk_space"
+path = "/data"
+info_type="free"
+format= "{icon} {percentage}"
+alert = 20
+warning = 30
+
+[[block]]
+block = "net"
+device = "eno2"
+format = "{ip}"
+
+[[block]]
+block = "sound"
+
+[[block]]
+block = "keyboard_layout"
+driver = "sway"
+format = "{layout}"
+[block.mappings]
+"English (US)" = "EN"
+"Romanian (standard)" = "RO"
+
+
+[[block]]
+block = "time"
+interval = 60
+format = "%a %d %b %R"
