@@ -2,8 +2,8 @@
 
 # Update IP for dyndns hosts at dynu.com
 
-DYNU_USERNAME="leonistor"
-DYNU_PASS_HASH="db8e699794924ff2f6cb21702c3129cc"
+DYNU_USERNAME="<edited>"
+DYNU_PASS_HASH="<edited>"
 DYNU_HOSTNAME="giantchicken.giize.com"
 
 
