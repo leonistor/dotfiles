@@ -1,0 +1,11 @@
+set adjust-open "best-fit"
+set selection-clipboard "clipboard"
+set selection-notification false
+set show-recent 0
+set guioptions ""
+set window-title-basename true
+set statusbar-home-tilde true
+
+map d scroll half-down
+map u scroll half-up
+map t toggle_page_mode
