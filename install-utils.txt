@@ -1,0 +1,112 @@
+-- fonts
+
+'FiraCode Nerd Font'
+JetBrains Mono
+
+
+
+brew
+
+aria2
+bash
+dog
+duf
+dust
+fd
+ffmpeg
+fish
+flyctl
+fx
+git
+go
+lf
+most
+mpv
+node
+python@3.10
+python@3.11
+ripgrep
+rust
+starship
+wget
+xz
+yt-dlp
+
+
+
+-- node
+pnpm
+npkill
+surge
+
+
+
+
+-- editors
+
+helix
+neovide
+
+
+
+-- configs
+
+bash
+.local/bin in path
+
+starship preset nerd-font-symbols >> ~/.config/starship.toml
+
+
+fish
+abbr --add bu "brew update; brew outdated"
+abbr --add gcl "git clone"
+abbr --add bug "brew upgrade"
+
+helix
+kitty
+starship
+lf
+
+git
+--
+pbcopy < ~/.ssh/id_ed25519.pub
+ssh -vT git@github.com
+eval (ssh-agent -s)
+eval (ssh-agent -c)
+ssh-add ~/.ssh/id_ed25519
+hx .ssh/config
+ssh-keygen -t ed25519 -C "leo.nistor@gmail.com"
+--
+
+
+---
+
+
+-- browers
+chrome + vimium
+firefox
+brave
+
+-- apps
+
+bitwarden
+colorslurp
+vimari
+rectangle
+vscode -- "ln -s /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code ."
+iina
+postgres
+sublime text
+appcleaner
+docker
+skype
+linearity curve
+kitty
+
+
+-- docs
+
+
+
+-- apple devel
+
